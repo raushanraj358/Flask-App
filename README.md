@@ -11,15 +11,15 @@ Flask (install with pip install Flask)
 Project Structure
 plaintext
 Copy code
-your_project/
-├── app.py
-├── templates/
-│   ├── file_viewer.html
-│   └── error.html
-├── file1.txt
-├── file2.txt
-├── file3.txt
-└── file4.txt
+                          your_project/
+                          ├── app.py
+                          ├── templates/
+                          │   ├── file_viewer.html
+                          │   └── error.html
+                          ├── file1.txt
+                          ├── file2.txt
+                          ├── file3.txt
+                          └── file4.txt
 
 # Running the Application
 Open a terminal and navigate to the directory containing app.py.
