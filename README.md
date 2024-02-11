@@ -11,15 +11,11 @@ Flask (install with pip install Flask)
 Project Structure
 plaintext
 Copy code
-                          your_project/
-                          ├── app.py
-                          ├── templates/
-                          │   ├── file_viewer.html
-                          │   └── error.html
-                          ├── file1.txt
-                          ├── file2.txt
-                          ├── file3.txt
-                          └── file4.txt
+app.py: This is the main Flask application file.
+templates/: This folder should contain your HTML templates.
+file_viewer.html: HTML template for rendering the file content.
+error.html: HTML template for displaying error details.
+file1.txt: The sample file which we want to display. Place file2.txt, file3.txt, and file4.txt in the same directory if you want to use those files as well.
 
 # Running the Application
 Open a terminal and navigate to the directory containing app.py.
